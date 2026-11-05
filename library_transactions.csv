@@ -1,0 +1,81 @@
+Transaction ID,Date,User ID,Book Title,Book Genre,User Type,Borrowing Time,Borrowing Duration (Days),Due Date,Return Date
+T0001,2026-01-13,U008,Life of a Leader,Biography,Student,12:15,24,2026-01-27,2026-02-06
+T0002,2026-10-07,U002,Life of a Leader,Biography,Student,17:45,3,2026-10-21,2026-10-10
+T0003,2026-04-30,U018,The Silent River,Fiction,Student,17:00,17,2026-05-14,2026-05-17
+T0004,2026-10-07,U019,The Innovator,Biography,Faculty,11:45,14,2026-10-21,2026-10-21
+T0005,2026-08-05,U007,The Silent River,Fiction,Faculty,12:15,11,2026-08-19,2026-08-16
+T0006,2026-07-14,U020,The Silent River,Fiction,Faculty,13:30,4,2026-07-28,2026-07-18
+T0007,2026-08-24,U003,Dreams of Tomorrow,Fiction,Public,09:45,18,2026-09-07,2026-09-11
+T0008,2026-07-05,U002,Artificial Intelligence,Technology,Public,11:00,19,2026-07-19,2026-07-24
+T0009,2026-02-10,U013,Human Biology,Science,Faculty,11:00,28,2026-02-24,2026-03-10
+T0010,2026-07-06,U007,Modern India,History,Public,13:30,6,2026-07-20,2026-07-12
+T0011,2026-02-06,U018,Artificial Intelligence,Technology,Public,18:15,20,2026-02-20,2026-02-26
+T0012,2026-08-25,U022,The Universe Explained,Science,Faculty,12:15,13,2026-09-08,2026-09-07
+T0013,2026-01-17,U009,The Silent River,Fiction,Student,13:45,26,2026-01-31,2026-02-12
+T0014,2026-06-11,U013,Physics Made Easy,Science,Public,18:45,7,2026-06-25,2026-06-18
+T0015,2026-05-16,U024,World History,History,Public,11:30,5,2026-05-30,2026-05-21
+T0016,2026-07-24,U017,Modern India,History,Faculty,11:15,12,2026-08-07,2026-08-05
+T0017,2026-02-26,U022,The Silent River,Fiction,Faculty,18:15,5,2026-03-12,2026-03-03
+T0018,2026-07-17,U017,The Hidden Clue,Mystery,Faculty,17:45,13,2026-07-31,2026-07-30
+T0019,2026-02-28,U025,The Hidden Clue,Mystery,Public,16:30,22,2026-03-14,2026-03-22
+T0020,2026-05-31,U001,Python Programming,Technology,Public,10:45,14,2026-06-14,2026-06-14
+T0021,2026-09-14,U021,Wings of Fire,Biography,Faculty,10:00,25,2026-09-28,2026-10-09
+T0022,2026-04-12,U018,The Innovator,Biography,Public,13:15,5,2026-04-26,2026-04-17
+T0023,2026-06-15,U012,Dreams of Tomorrow,Fiction,Faculty,08:00,16,2026-06-29,2026-07-01
+T0024,2026-05-04,U024,The Universe Explained,Science,Faculty,09:00,19,2026-05-18,2026-05-23
+T0025,2026-03-06,U018,Dreams of Tomorrow,Fiction,Student,18:45,5,2026-03-20,2026-03-11
+T0026,2026-08-05,U023,Artificial Intelligence,Technology,Faculty,16:15,7,2026-08-19,2026-08-12
+T0027,2026-07-11,U004,Modern India,History,Student,16:45,15,2026-07-25,2026-07-26
+T0028,2026-06-23,U019,The Universe Explained,Science,Student,17:15,1,2026-07-07,2026-06-24
+T0029,2026-01-31,U011,The Silent River,Fiction,Student,09:00,8,2026-02-14,2026-02-08
+T0030,2026-05-23,U018,The Hidden Clue,Mystery,Student,15:15,22,2026-06-06,2026-06-14
+T0031,2026-10-23,U014,The Innovator,Biography,Student,11:45,16,2026-11-06,2026-11-08
+T0032,2026-08-09,U015,The Silent River,Fiction,Public,14:45,12,2026-08-23,2026-08-21
+T0033,2026-02-20,U004,Dreams of Tomorrow,Fiction,Student,14:30,2,2026-03-06,2026-02-22
+T0034,2026-10-02,U006,The Universe Explained,Science,Faculty,10:45,15,2026-10-16,2026-10-17
+T0035,2026-02-08,U002,World History,History,Public,20:00,15,2026-02-22,2026-02-23
+T0036,2026-02-17,U014,The Hidden Clue,Mystery,Faculty,11:15,25,2026-03-03,2026-03-14
+T0037,2026-07-25,U001,World History,History,Faculty,10:45,2,2026-08-08,2026-07-27
+T0038,2026-05-27,U005,Data Science Basics,Technology,Student,19:45,14,2026-06-10,2026-06-10
+T0039,2026-01-30,U024,Python Programming,Technology,Faculty,19:00,19,2026-02-13,2026-02-18
+T0040,2026-10-27,U002,The Silent River,Fiction,Public,16:15,16,2026-11-10,2026-11-12
+T0041,2026-02-05,U013,The Silent River,Fiction,Student,09:15,20,2026-02-19,2026-02-25
+T0042,2026-10-24,U014,The Hidden Clue,Mystery,Public,08:00,20,2026-11-07,2026-11-13
+T0043,2026-09-25,U022,The Last Secret,Mystery,Public,12:15,11,2026-10-09,2026-10-06
+T0044,2026-05-16,U015,Python Programming,Technology,Faculty,10:30,13,2026-05-30,2026-05-29
+T0045,2026-08-23,U003,The Silent River,Fiction,Public,17:00,20,2026-09-06,2026-09-12
+T0046,2026-05-16,U008,Physics Made Easy,Science,Faculty,13:00,5,2026-05-30,2026-05-21
+T0047,2026-08-13,U020,Python Programming,Technology,Public,16:30,27,2026-08-27,2026-09-09
+T0048,2026-10-11,U005,The Hidden Clue,Mystery,Faculty,18:00,10,2026-10-25,2026-10-21
+T0049,2026-10-11,U020,The Silent River,Fiction,Student,12:30,5,2026-10-25,2026-10-16
+T0050,2026-04-15,U017,Wings of Fire,Biography,Faculty,18:30,22,2026-04-29,2026-05-07
+T0051,2026-02-17,U002,Python Programming,Technology,Student,14:30,21,2026-03-03,2026-03-10
+T0052,2026-05-15,U018,Python Programming,Technology,Public,19:45,6,2026-05-29,2026-05-21
+T0053,2026-01-05,U018,Modern India,History,Student,09:15,4,2026-01-19,2026-01-09
+T0054,2026-10-10,U002,Artificial Intelligence,Technology,Faculty,14:15,5,2026-10-24,2026-10-15
+T0055,2026-07-03,U022,Python Programming,Technology,Student,18:15,7,2026-07-17,2026-07-10
+T0056,2026-07-28,U008,Artificial Intelligence,Technology,Student,19:15,20,2026-08-11,2026-08-17
+T0057,2026-01-13,U014,Human Biology,Science,Public,19:30,6,2026-01-27,2026-01-19
+T0058,2026-05-17,U013,Life of a Leader,Biography,Student,20:00,6,2026-05-31,2026-05-23
+T0059,2026-04-13,U010,World History,History,Student,15:30,27,2026-04-27,2026-05-10
+T0060,2026-04-09,U003,The Universe Explained,Science,Faculty,13:30,13,2026-04-23,2026-04-22
+T0061,2026-09-18,U001,Artificial Intelligence,Technology,Student,18:30,13,2026-10-02,2026-10-01
+T0062,2026-10-25,U020,Python Programming,Technology,Faculty,08:00,9,2026-11-08,2026-11-03
+T0063,2026-06-10,U013,Artificial Intelligence,Technology,Public,17:00,14,2026-06-24,2026-06-24
+T0064,2026-01-23,U017,Human Biology,Science,Public,14:00,23,2026-02-06,2026-02-15
+T0065,2026-04-11,U022,The Innovator,Biography,Faculty,14:00,12,2026-04-25,2026-04-23
+T0066,2026-03-05,U022,Midnight Mystery,Mystery,Faculty,12:30,24,2026-03-19,2026-03-29
+T0067,2026-06-01,U014,Data Science Basics,Technology,Public,10:15,18,2026-06-15,2026-06-19
+T0068,2026-03-31,U013,Modern India,History,Public,17:30,20,2026-04-14,2026-04-20
+T0069,2026-05-27,U015,A New Beginning,Fiction,Faculty,14:30,7,2026-06-10,2026-06-03
+T0070,2026-04-20,U022,Modern India,History,Student,15:15,17,2026-05-04,2026-05-07
+T0071,2026-06-21,U022,Artificial Intelligence,Technology,Faculty,20:15,3,2026-07-05,2026-06-24
+T0072,2026-03-17,U016,The Universe Explained,Science,Public,08:15,1,2026-03-31,2026-03-18
+T0073,2026-08-01,U023,A New Beginning,Fiction,Public,17:15,21,2026-08-15,2026-08-22
+T0074,2026-07-24,U025,The Ancient World,History,Student,10:00,8,2026-08-07,2026-08-01
+T0075,2026-04-01,U002,World History,History,Public,19:45,26,2026-04-15,2026-04-27
+T0076,2026-08-22,U022,The Universe Explained,Science,Public,20:45,5,2026-09-05,2026-08-27
+T0077,2026-06-12,U018,The Last Secret,Mystery,Faculty,15:45,25,2026-06-26,2026-07-07
+T0078,2026-09-01,U021,Physics Made Easy,Science,Faculty,12:15,15,2026-09-15,2026-09-16
+T0079,2026-05-03,U023,Midnight Mystery,Mystery,Faculty,15:00,9,2026-05-17,2026-05-12
+T0080,2026-06-21,U005,Human Biology,Science,Student,16:00,11,2026-07-05,2026-07-02
