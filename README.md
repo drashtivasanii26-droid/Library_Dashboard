@@ -1,93 +1,152 @@
-# E-Library Management System
+# 📚 E-Library Management System
+---
 
-* **Author:** Drashti Vasani
+### 👩‍💻 Author
 
-## Project Overview
+**Drashti Vasani**
 
-The **E-Library Management System** is a menu-driven Python application
-for analyzing library borrowing transactions. It uses Pandas and NumPy
-to load, clean, filter, and analyze library data, and Matplotlib and
-Seaborn to create visual reports.
+---
 
-The program is implemented using a `LibraryDashboard` class.
+## 📌 Project Overview
 
-## Features
+The **E-Library Management System** is a menu-driven Python application designed to analyze library borrowing transactions.
 
-1.  **Load Dataset** -- Load a CSV file, validate the required columns,
-    remove duplicate rows, and remove records with missing or invalid
-    required data.
-2.  **Calculate Statistics** -- Display the total number of transactions
-    and the average, maximum, minimum, and standard deviation of
-    borrowing duration.
-3.  **Filter Transactions** -- Search transactions by book genre
-    (case-insensitive partial match).
-4.  **Generate Report** -- Create a genre-wise report containing
-    transaction counts and average borrowing duration.
-5.  **Data Analysis** -- Display dataset information, descriptive
-    statistics, genre-wise transactions, user-type analysis, the five
-    most borrowed books, and monthly borrowing totals.
-6.  **Data Visualization** -- Generate four charts: top five books,
-    monthly borrowing trend, book genre distribution, and borrowing
-    activity by day and hour.
-7.  **Show Dataset** -- Display all loaded records and the total record
-    count.
-8.  **Exit** -- Close the application.
+This project uses **Pandas and NumPy** for data processing, cleaning, filtering, and statistical analysis. It also uses **Matplotlib and Seaborn** to generate meaningful charts and visual reports.
 
-## Technologies Used
+The entire application is developed using an object-oriented approach with a `LibraryDashboard` class.
 
--   Python
--   Pandas
--   NumPy
--   Matplotlib
--   Seaborn
+### 🎯 Project Objectives
 
-## Required Libraries
+- Manage and analyze library borrowing records.
+- Calculate important statistical information.
+- Filter transactions based on book genres.
+- Generate genre-wise reports.
+- Analyze user and book borrowing patterns.
+- Create attractive data visualizations.
 
-Install the required Python packages:
+---
 
-``` bash
+## ✨ Key Features
+
+| No. | Feature | Description |
+|---|---|---|
+| 1 | 📂 Load Dataset | Load and validate CSV datasets. |
+| 2 | 📊 Calculate Statistics | Calculate average, maximum, minimum and standard deviation. |
+| 3 | 🔍 Filter Transactions | Search transactions by book genre. |
+| 4 | 📑 Generate Report | Generate genre-wise borrowing reports. |
+| 5 | 📈 Data Analysis | Perform detailed dataset analysis. |
+| 6 | 📉 Data Visualization | Generate four different charts. |
+| 7 | 📋 Show Dataset | Display all library transaction records. |
+| 8 | 🚪 Exit | Close the application. |
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Core programming language |
+| 🐼 Pandas | Data manipulation and analysis |
+| 🔢 NumPy | Numerical calculations |
+| 📊 Matplotlib | Data visualization |
+| 🎨 Seaborn | Statistical visualization |
+
+---
+
+## 📦 Required Libraries
+
+Install the following libraries before running the project.
+
+```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
-## CSV Dataset Format
+---
 
-The program expects a CSV file containing these exact column names:
+## 📁 Project Structure
 
-  Column                        Description
-  ----------------------------- -------------------------------------
-  `Transaction ID`              Unique transaction identifier
-  `Date`                        Date of the borrowing transaction
-  `User ID`                     Library user identifier
-  `Book Title`                  Title of the borrowed book
-  `Book Genre`                  Genre/category of the book
-  `User Type`                   Type/category of the user
-  `Borrowing Time`              Time at which the book was borrowed
-  `Borrowing Duration (Days)`   Borrowing duration in days
+```text
+E-Library-Management-System/
+│
+├── 📄 library_dashboard.py
+│
+├── 📊 library_transactions.csv
+│
+├── 📑 library_report.csv
+│
+├── 📂 Library_Charts/
+│   ├── Top_5_Books.png
+│   ├── Monthly_Borrowing.png
+│   ├── Genre_Distribution.png
+│   └── Borrowing_Heatmap.png
+│
+└── 📘 README.md
+```
 
-The CSV must contain all eight columns. The program converts `Date` to a
-date value and `Borrowing Duration (Days)` to a numeric value. Rows with
-missing required values or invalid dates/durations are removed.
-Duplicate rows are also removed during loading.
+---
 
-## How to Run
+## 📋 CSV Dataset Format
 
-1.  Save the Python program as `library_dashboard.py` (or another `.py`
-    filename).
-2.  Keep the library transaction CSV file in a known folder.
-3.  Open a terminal or command prompt in the project folder.
-4.  Run the program:
+The application uses a CSV dataset containing library borrowing transactions.
 
-``` bash
+### Required Dataset Columns
+
+| Column Name | Description |
+|---|---|
+| Transaction ID | Unique transaction identifier |
+| Date | Borrowing transaction date |
+| User ID | Library user identification |
+| Book Title | Name of the borrowed book |
+| Book Genre | Category of the book |
+| User Type | Student, Faculty or Public |
+| Borrowing Time | Time of borrowing |
+| Borrowing Duration (Days) | Total borrowing duration |
+| Due Date | Expected book return date |
+| Return Date | Actual book return date |
+
+**Data Cleaning Operations:**
+
+- Remove duplicate records.
+- Handle missing values.
+- Validate required columns.
+- Convert date and numeric columns into appropriate data types.
+- Remove invalid records.
+
+---
+
+## 🚀 How to Run the Project
+
+Follow these simple steps:
+
+**Step 1:** Download or clone the project.
+
+**Step 2:** Install the required libraries.
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+**Step 3:** Open the project folder in VS Code, Jupyter Notebook or any Python IDE.
+
+**Step 4:** Run the Python file.
+
+```bash
 python library_dashboard.py
 ```
 
-5.  Choose an option from the menu.
-6.  When prompted, enter the path to the CSV file.
+**Step 5:** Select an option from the main menu.
 
-## Main Menu
+**Step 6:** Enter the CSV dataset path when requested.
 
-``` text
-========== E-LIBRARY MENU ==========
+---
+
+## 🖥️ Main Menu
+
+```text
+=================================================
+           📚 E-LIBRARY MANAGEMENT SYSTEM
+=================================================
+
 1. Load Dataset
 2. Calculate Statistics
 3. Filter Transactions
@@ -96,189 +155,259 @@ python library_dashboard.py
 6. Data Visualization
 7. Show Dataset
 8. Exit
+
+=================================================
 
 Enter your choice:
 ```
 
-## Sample Output
+---
 
-The following is an example of the program's interaction. The displayed
-record counts and calculated values depend on the CSV dataset used.
+## 📊 Sample Output
 
-``` text
-========== E-LIBRARY MENU ==========
-1. Load Dataset
-2. Calculate Statistics
-3. Filter Transactions
-4. Generate Report
-5. Data Analysis
-6. Data Visualization
-7. Show Dataset
-8. Exit
+### 1️⃣ Load Dataset
 
+```text
 Enter your choice: 1
 
-Enter CSV file path: library_data.csv
+Enter CSV file path: library_transactions.csv
 
 Dataset loaded successfully!
-Total Records Loaded: [number of valid records]
 
-========== E-LIBRARY MENU ==========
-1. Load Dataset
-2. Calculate Statistics
-3. Filter Transactions
-4. Generate Report
-5. Data Analysis
-6. Data Visualization
-7. Show Dataset
-8. Exit
+Total Records Loaded: 80
+```
 
-Enter your choice: 2
+### 2️⃣ Calculate Statistics
 
+```text
 ========== STATISTICS ==========
-Total Transactions: [total transactions]
-Average Borrowing Duration: [average duration]
-Maximum Borrowing Duration: [maximum duration]
-Minimum Borrowing Duration: [minimum duration]
-Standard Deviation: [standard deviation]
 
+Total Transactions: 80
+
+Average Borrowing Duration: 13.6125
+
+Maximum Borrowing Duration: 28
+
+Minimum Borrowing Duration: 1
+
+Standard Deviation: 7.459044426064239
+```
+
+### 3️⃣ Filter Transactions
+
+```text
 Enter your choice: 3
 
 Available Genres:
-[available book genres]
 
-Enter Book Genre: Fiction
+['Biography', 'Fiction', 'Technology',
+ 'Science', 'History', 'Mystery']
+
+Enter Book Genre: science
 
 Filtered Transactions:
-[matching transaction records]
 
-Total Records Found: [number of matching records]
+Transaction ID       Book Title             Book Genre
+T0009                Human Biology          Science
+T0012                The Universe Explained Science
+T0014                Physics Made Easy      Science
+T0024                The Universe Explained Science
 
+Total Records Found: 14
+```
+
+### 4️⃣ Generate Report
+
+```text
 Enter your choice: 4
 
 Report generated successfully!
+
 File Name: library_report.csv
-[genre-wise transaction count and average duration report]
 
-Enter your choice: 5
+             Total_Transactions  Average_Duration
 
+Biography              9             14.111111
+Fiction               17             12.529412
+History               12             13.083333
+Mystery               10             18.100000
+Science               14             11.571429
+Technology            18             13.833333
+```
+
+### 5️⃣ Data Analysis
+
+```text
 ========== DATA ANALYSIS ==========
 
 Dataset Information:
-[columns, non-null counts, and data types]
-
-Dataset Description:
-[descriptive statistics]
+80 Entries
+10 Columns
 
 Genre Wise Transactions:
-[transaction count for each genre]
+
+Biography      9
+Fiction       17
+History       12
+Mystery       10
+Science       14
+Technology    18
 
 User Type Analysis:
-[transaction count for each user type]
+
+Faculty       30
+Public        26
+Student       24
 
 Most Borrowed Books:
-[top five book titles and their borrowing counts]
+
+The Silent River           11
+Artificial Intelligence     8
+Python Programming          8
+The Universe Explained      7
+Modern India                 6
 
 Monthly Borrowing:
-[monthly transaction totals]
 
+2026-01      7
+2026-02      9
+2026-03      4
+2026-04      8
+2026-05     11
+2026-06      8
+2026-07     10
+2026-08      9
+2026-09      4
+2026-10     10
+```
+
+### 6️⃣ Data Visualization
+
+```text
 Enter your choice: 6
 
 Generating Charts...
-[Top 5 Most Borrowed Books chart displayed]
-[Monthly Borrowing Trend chart displayed]
-[Book Genre Distribution chart displayed]
-[Borrowing Activity Day/Time Heatmap displayed]
-All Charts Generated Successfully!
 
+All Charts Generated Successfully!
+```
+
+### 7️⃣ Show Dataset
+
+```text
 Enter your choice: 7
 
 ========== LIBRARY DATASET ==========
-[all loaded transaction records]
-Total Records: [number of records]
 
+Transaction ID    Date         User ID
+T0001             2026-01-13   U008
+T0002             2026-10-07   U002
+T0003             2026-04-30   U018
+T0004             2026-10-07   U019
+T0005             2026-08-05   U007
+
+...
+
+Total Records: 80
+```
+
+### 8️⃣ Exit
+
+```text
 Enter your choice: 8
 
 Thank you for using E-Library Management System!
 ```
 
-## Generated Reports and Charts
+---
 
-### CSV Report
+## 📈 Data Visualization
 
-When **Generate Report** is selected, the program creates:
+The project generates four different charts to understand library borrowing activities.
 
-``` text
-library_report.csv
-```
+### 📊 1. Top 5 Most Borrowed Books
 
-The report groups transactions by `Book Genre` and contains:
+Displays the five most frequently borrowed books using a bar chart.
 
--   `Total_Transactions` -- number of transactions in each genre.
--   `Average_Duration` -- average borrowing duration for each genre.
+### 📅 2. Monthly Borrowing Trend
 
-The report is saved in the same folder as the Python file.
+Displays monthly borrowing activities using a line chart.
 
-### Visualizations
+### 🥧 3. Book Genre Distribution
 
-When **Data Visualization** is selected, the program creates the
-`Library_Charts` folder (if it does not already exist) and saves these
-charts:
+Shows the distribution of different book genres using a pie chart.
 
-  -----------------------------------------------------------------------
-  Chart file                          Visualization
-  ----------------------------------- -----------------------------------
-  `Top_5_Books.png`                   Bar chart of the five most borrowed
-                                      books
+### 🔥 4. Borrowing Activity Heatmap
 
-  `Monthly_Borrowing.png`             Line graph showing monthly
-                                      borrowing totals
+Displays borrowing activity based on days and hours using a heatmap.
 
-  `Genre_Distribution.png`            Pie chart showing the distribution
-                                      of book genres
+### Generated Chart Files
 
-  `Borrowing_Heatmap.png`             Heatmap showing borrowing activity
-                                      by day and hour
-  -----------------------------------------------------------------------
+| Chart Name | Description |
+|---|---|
+| `Top_5_Books.png` | Top five borrowed books |
+| `Monthly_Borrowing.png` | Monthly borrowing trend |
+| `Genre_Distribution.png` | Genre-wise distribution |
+| `Borrowing_Heatmap.png` | Day and hour borrowing activity |
 
-All chart images are saved at 300 DPI in the `Library_Charts` folder,
-located alongside the Python file. The charts are also displayed when
-generated.
+**Output Folder:** `Library_Charts/`
 
-## Project Structure
+All charts are saved in PNG format at **300 DPI** and are also displayed when generated.
 
-``` text
-E-Library-Management-System/
-│
-├── library_dashboard.py
-├── library_data.csv
-├── library_report.csv
-├── Library_Charts/
-│   ├── Top_5_Books.png
-│   ├── Monthly_Borrowing.png
-│   ├── Genre_Distribution.png
-│   └── Borrowing_Heatmap.png
-└── README.md
-```
+---
 
-*The Python file and input CSV names above are examples. The report and
-chart files are generated by the program.*
+## 📑 Generated Reports
 
-## Error Handling
+When the user selects the **Generate Report** option, the application creates:
 
-The application checks for common input and dataset problems:
+`library_report.csv`
 
--   Empty CSV file path.
--   CSV file not found.
--   A file that does not have the `.csv` extension.
--   Missing required columns.
--   No valid records remaining after cleaning.
--   Attempts to use analysis options before loading a dataset.
--   Invalid menu choices.
+The report contains:
 
-## Conclusion
+- `Total_Transactions` – Total borrowing transactions for each genre.
+- `Average_Duration` – Average borrowing duration for each genre.
 
-The E-Library Management System provides a simple way to examine library
-borrowing activity. It combines data loading and cleaning, transaction
-filtering, statistical calculations, genre-wise reporting, dataset
-analysis, and visualizations in one interactive Python application.
+The generated report is saved in the same folder as the Python file.
+
+---
+
+## ⚠️ Error Handling
+
+The application handles common errors such as:
+
+- Empty CSV file path.
+- CSV file not found.
+- Invalid file extension.
+- Missing required columns.
+- Empty dataset after data cleaning.
+- Selecting analysis options before loading the dataset.
+- Invalid menu choices.
+
+---
+
+## 🎓 Learning Outcomes
+
+Through this project, the following concepts are implemented:
+
+- Python Object-Oriented Programming (OOP).
+- Pandas DataFrame operations.
+- NumPy numerical calculations.
+- Data Cleaning and Preprocessing.
+- Descriptive Statistics.
+- Data Filtering and Grouping.
+- CSV File Handling.
+- Data Visualization using Matplotlib and Seaborn.
+
+---
+
+## 🏁 Conclusion
+
+The **E-Library Management System** is a useful Python-based data analysis project that simplifies the process of analyzing library borrowing transactions.
+
+It combines dataset management, data cleaning, statistical calculations, transaction filtering, report generation, and data visualization into one interactive application.
+
+This project demonstrates the practical application of Python libraries for real-world data analysis and visualization.
+
+---
+
+
+                                            ⭐ Thank You ⭐
